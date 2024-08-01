@@ -26,5 +26,10 @@
 
             return (new UserLogin(email, hashPassword), error);
         }
+
+        public static UserLogin Create(string email, int hashPassword)
+        {
+            return new UserLogin(email, hashPassword);
+        }
     }
 }

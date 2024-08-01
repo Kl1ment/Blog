@@ -9,7 +9,6 @@ namespace Blog.DataAccess
             : base()
         {            
         }
-
-        public DbSet<UserLoginEntity> UserLogin { get; set; }
+        public DbSet<UserLoginEntity> UsersLogin { get; set; }
     }
 }

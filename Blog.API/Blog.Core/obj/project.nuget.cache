@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJt6svxKPFo=",
+  "dgSpecHash": "B4vr7l3klzA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jkaes\\source\\repos\\Blog.API\\Blog.Core\\Blog.Core.csproj",
+  "projectFilePath": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jkaes\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jkaes\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
