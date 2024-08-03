@@ -19,16 +19,18 @@ namespace Blog.API.Controllers
         [HttpGet]
         public async Task<ActionResult<string>> Login([FromQuery] SchemaLogin schemaLogin)
         {
-            if (await _loginService.Login(schemaLogin.Email, schemaLogin.Password))
+            string error = await _loginService.Login(schemaLogin.Email, schemaLogin.Password);
+
+            if (string.IsNullOrEmpty(error))
             {
                 return Ok("Welcome");
             }
 
-            return BadRequest("Неверный логин или пароль");
+            return BadRequest(error);
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> Register([FromBody] SchemaRegister schemaRegister)
+        public async Task<ActionResult<string>> Register([FromBody] SchemaRegister schemaRegister)
         {
             var user = LoginModel.Register(
                 schemaRegister.Email,
@@ -39,7 +41,14 @@ namespace Blog.API.Controllers
                 return BadRequest(user.error);
             }
 
-            return await _loginService.Register(user.newUser);
+            string error = await _loginService.Register(user.newUser);
+
+            if (string.IsNullOrEmpty(error))
+            {
+                return Ok(user.newUser.Id);
+            }
+
+            return BadRequest(error);
         }
 
         //[HttpPut("{id:int}")]

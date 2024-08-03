@@ -2462,19 +2462,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Дмитрий\\.nuget\\packages\\": {}
+    "C:\\Users\\jkaes\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Blog.Application.csproj",
+      "projectUniqueName": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Blog.Application.csproj",
       "projectName": "Blog.Application",
-      "projectPath": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Blog.Application.csproj",
-      "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\obj\\",
+      "projectPath": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Blog.Application.csproj",
+      "packagesPath": "C:\\Users\\jkaes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jkaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2482,14 +2487,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Blog.Core.csproj": {
-              "projectPath": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Blog.Core.csproj"
+            "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Blog.Core.csproj": {
+              "projectPath": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Blog.Core.csproj"
             }
           }
         }
@@ -2546,7 +2552,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

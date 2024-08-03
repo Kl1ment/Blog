@@ -13,21 +13,39 @@ namespace Blog.Application.Services
             _loginRepository = loginRepository;
         }
 
-        public async Task<bool> Login(string email, string password)
+        public async Task<string> Login(string email, string password)
         {
+            string error = string.Empty;
+
             var userFromDB = await _loginRepository.GetUser(email);
 
             if (userFromDB == null)
             {
-                return false;
-            }
+                error = "Пользователь не найден";
 
-            return password.GetHashCode() == userFromDB.HashPassword;
+                return error;
+            }
+            
+            if (password.GetHashCode() != userFromDB.HashPassword)
+                error = "Неверный пароль";
+
+            return error;
         }
 
-        public async Task<int> Register(LoginModel loginModel)
+        public async Task<string> Register(LoginModel loginModel)
         {
-            return await _loginRepository.CreateUser(loginModel);
+            string error = string.Empty;
+
+            if (await _loginRepository.GetUser(loginModel.Email) != null)
+            {
+                error = "Данный Email уже используется другим пользователем";
+
+                return error;
+            }
+
+            await _loginRepository.CreateUser(loginModel);
+
+            return error;
         }
 
         public async Task<int> UpdateUser(int id, string email, string password)
