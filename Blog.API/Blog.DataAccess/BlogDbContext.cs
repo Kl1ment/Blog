@@ -6,7 +6,7 @@ namespace Blog.DataAccess
     public class BlogDbContext : DbContext
     {
         public BlogDbContext(DbContextOptions<BlogDbContext> options)
-            : base()
+            : base(options)
         {            
         }
         public DbSet<UserLoginEntity> UsersLogin { get; set; }
