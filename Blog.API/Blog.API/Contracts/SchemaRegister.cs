@@ -1,9 +1,10 @@
-﻿namespace Blog.API.Contracts
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Blog.API.Contracts
 {
     public record SchemaRegister(
-        string Email,
-        string Password,
-        string Nickname,
-        string PhoneNumber
-        );
+        [Required] string Email,
+        [Required] string Password,
+        [Required] string Nickname,
+        [Required] string PhoneNumber);
 }

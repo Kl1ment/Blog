@@ -13,6 +13,11 @@ namespace Blog.Application.Services
             _loginRepository = loginRepository;
         }
 
+        public async Task<List<LoginModel>> GetAllUsers()
+        {
+            return await _loginRepository.GetAllUsers();
+        }
+
         public async Task<string> Login(string email, string password)
         {
             string error = string.Empty;

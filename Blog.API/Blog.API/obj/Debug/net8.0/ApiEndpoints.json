@@ -1,8 +1,28 @@
 [
   {
+    "ContainingType": "Blog.API.Controllers.AdminController",
+    "Method": "GetAllUser",
+    "RelativePath": "admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Blog.API.Models.LoginModel, Blog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Blog.API.Controllers.LoginController",
     "Method": "Login",
-    "RelativePath": "controller",
+    "RelativePath": "login",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -33,7 +53,7 @@
   {
     "ContainingType": "Blog.API.Controllers.LoginController",
     "Method": "Register",
-    "RelativePath": "controller",
+    "RelativePath": "login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -46,7 +66,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Int32",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -59,7 +79,7 @@
   {
     "ContainingType": "Blog.API.Controllers.LoginController",
     "Method": "DeleteUser",
-    "RelativePath": "controller/{id}",
+    "RelativePath": "login/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

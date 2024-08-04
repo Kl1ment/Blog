@@ -4,6 +4,7 @@ namespace Blog.DataAccess.Repositories
 {
     public interface ILoginRepository
     {
+        Task<List<LoginModel>> GetAllUsers();
         Task<LoginModel?> GetUser(string email);
         Task<int> CreateUser(LoginModel user);
         Task<int> DeleteUser(int id);

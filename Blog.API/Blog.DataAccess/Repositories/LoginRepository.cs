@@ -14,11 +14,24 @@ namespace Blog.DataAccess.Repositories
             _context = contxt;
         }
 
+        public async Task<List<LoginModel>> GetAllUsers()
+        {
+            var userEntities = await _context.UsersLogin
+                .AsNoTracking()
+                .ToListAsync();
+
+            var users = userEntities
+                .Select(b => LoginModel.Login(b.Id, b.Email, b.HashPassword))
+                .ToList();
+
+            return users;
+        }
+
         public async Task<LoginModel?> GetUser(string email)
         {
             var userEntity = await _context.UsersLogin
-                .Where(x => x.Email == email)
-                .FirstOrDefaultAsync();
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Email == email);
 
             if (userEntity == null) { return null; }
 
