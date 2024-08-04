@@ -10,5 +10,6 @@ namespace Blog.DataAccess
         {            
         }
         public DbSet<UserLoginEntity> UsersLogin { get; set; }
+        public DbSet<PostEntity> Post { get; set; }
     }
 }

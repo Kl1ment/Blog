@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blog.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802b319180fde731ce9cf54b0c53bf04e6c82c0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e74b6782f032c81adde98e1e333227cba82777a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blog.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blog.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,33 +1,36 @@
-﻿using Blog.Core.Models;
+﻿using Blog.Core.Abstractions;
+using Blog.Core.Models;
 using Blog.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blog.DataAccess.Repositories
 {
-    public class PostRepository : DbContext
+    public class PostRepository : IPostRepository
     {
-        private readonly PostDbContext _context;
+        private readonly BlogDbContext _context;
 
-        public PostRepository(PostDbContext context)
+        public PostRepository(BlogDbContext context)
         {
             _context = context;
         }
 
-        public async Task<List<PostModel>> GetByAuthorId(int authorId)
+        public async Task<List<IPostModel>> GetByAuthorId(int authorId)
         {
             var postEntities = await _context.Post
                 .AsNoTracking()
                 .Where(b => b.AuthorId == authorId)
                 .ToListAsync();
 
-            var posts = postEntities
-                .Select(b => PostModel.CreateFromDb(b.Id, b.AuthorId, b.Title, b.TextData, b.CreatedDate, b.Views))
-                .ToList();
+            var posts = new List<IPostModel>();
+
+            posts.AddRange(postEntities
+                .Select(b => new PostResponse(b.Id, b.AuthorId, b.Title, b.TextData, b.CreatedDate, b.Views))
+                .ToList());
 
             return posts;
         }
-        
-        public async Task<Guid> Create(PostModel postModel)
+
+        public async Task<Guid> Create(IPostModel postModel)
         {
             var postEntity = new PostEntity
             {
@@ -45,7 +48,18 @@ namespace Blog.DataAccess.Repositories
             return postEntity.Id;
         }
 
+        public async Task<Guid> Update(IPostModel postModel)
+        {
+            return postModel.Id;
+        }
 
+        public async Task<Guid> Delete(Guid id)
+        {
+            await _context.Post
+                .Where(b => b.Id == id)
+                .ExecuteDeleteAsync();
 
+            return id;
+        }
     }
 }

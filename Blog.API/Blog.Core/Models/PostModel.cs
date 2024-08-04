@@ -1,8 +1,9 @@
-﻿using CSharpFunctionalExtensions;
+﻿using Blog.Core.Abstractions;
+using CSharpFunctionalExtensions;
 
 namespace Blog.Core.Models
 {
-    public class PostModel
+    public class PostModel : IPostModel
     {
         public const int MAX_TITLE_LENGTH = 250;
 
@@ -22,7 +23,7 @@ namespace Blog.Core.Models
             CreatedDate = dateTime;
         }
 
-        public static Result<PostModel> CreateNew(Guid id, int authorId, string title, string textData)
+        public static Result<PostModel> Create(Guid id, int authorId, string title, string textData)
         {
             if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(textData))
             {
@@ -33,15 +34,5 @@ namespace Blog.Core.Models
 
             return Result.Success<PostModel>(post);
         }
-
-        public static PostModel CreateFromDb(Guid id, int authorId, string title, string textData, DateTime dateTime, int views)
-        {
-            var post = new PostModel(id, authorId, title, textData, dateTime);
-
-            post.Views = views;
-
-            return post;
-        }
-
     }
 }
