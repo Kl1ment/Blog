@@ -118,3 +118,14 @@ D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\obj\Debug\net8.0\Blog.API.pdb
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\obj\Debug\net8.0\Blog.API.genruntimeconfig.cache
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\obj\Debug\net8.0\ref\Blog.API.dll
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\CSharpFunctionalExtensions.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Blog.Infrastucture.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Blog.Infrastucture.pdb
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

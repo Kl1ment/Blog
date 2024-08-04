@@ -1,7 +1,8 @@
 ﻿using Blog.API.Contracts;
-using Blog.API.Models;
 using Blog.Application.Services;
+using CSharpFunctionalExtensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 
 namespace Blog.API.Controllers
 {
@@ -16,39 +17,32 @@ namespace Blog.API.Controllers
             _loginService = loginService;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<string>> Login([FromQuery] SchemaLogin schemaLogin)
+        [HttpPost]
+        public async Task<ActionResult<string>> Login([FromBody] SchemaLogin schemaLogin)
         {
-            string error = await _loginService.Login(schemaLogin.Email, schemaLogin.Password);
+            var result = await _loginService.Login(schemaLogin.Email, schemaLogin.Password);
 
-            if (string.IsNullOrEmpty(error))
+            if (result.IsFailure)
             {
-                return Ok("Welcome");
+                return BadRequest(result.Error);
             }
 
-            return BadRequest(error);
+            HttpContext.Response.Cookies.Append("asp", result.Value);
+
+            return Ok();
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<ActionResult<string>> Register([FromBody] SchemaRegister schemaRegister)
         {
-            var user = LoginModel.Register(
-                schemaRegister.Email,
-                schemaRegister.Password);
+            var result = await _loginService.Register(schemaRegister.Email, schemaRegister.Password);
 
-            if (user.newUser == null)
+            if (result.IsFailure)
             {
-                return BadRequest(user.error);
+                return BadRequest(result.Error);
             }
 
-            string error = await _loginService.Register(user.newUser);
-
-            if (string.IsNullOrEmpty(error))
-            {
-                return Ok(user.newUser.Id);
-            }
-
-            return BadRequest(error);
+            return Ok(result.Value);
         }
 
         //[HttpPut("{id:int}")]

@@ -14,7 +14,7 @@ namespace Blog.DataAccess.Configurations
             builder.Property(b => b.Email)
                 .IsRequired();
 
-            builder.Property(b => b.HashPassword)
+            builder.Property(b => b.passwordHash)
                 .IsRequired();
         }
     }

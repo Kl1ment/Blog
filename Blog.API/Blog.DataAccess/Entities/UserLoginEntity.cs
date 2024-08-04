@@ -4,6 +4,6 @@
     {
         public int Id { get; set; }
         public string Email { get; set; } = string.Empty;
-        public int HashPassword { get; set; }
+        public string passwordHash { get; set; } = string.Empty;
     }
 }

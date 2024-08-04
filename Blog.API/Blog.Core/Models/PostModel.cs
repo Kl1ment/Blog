@@ -30,7 +30,7 @@ namespace Blog.Core.Models
                 return Result.Failure<PostModel>("Название и содержимое поста должны иметь контент");
             }
 
-            var post = new PostModel(id, authorId, title, textData, DateTime.Now);
+            var post = new PostModel(id, authorId, title, textData, DateTime.UtcNow);
 
             return Result.Success<PostModel>(post);
         }

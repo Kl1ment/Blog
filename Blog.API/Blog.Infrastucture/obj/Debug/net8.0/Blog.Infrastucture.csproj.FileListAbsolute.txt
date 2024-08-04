@@ -1,0 +1,16 @@
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.deps.json
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.pdb
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Core.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Core.pdb
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.csproj.AssemblyReference.cache
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.AssemblyInfoInputs.cache
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.AssemblyInfo.cs
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.csproj.CoreCompileInputs.cache
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.sourcelink.json
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Inf.36F2EF46.Up2Date
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\refint\Blog.Infrastucture.dll
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.pdb
+D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\ref\Blog.Infrastucture.dll

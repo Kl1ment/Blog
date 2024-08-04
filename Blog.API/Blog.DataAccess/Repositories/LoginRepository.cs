@@ -21,13 +21,13 @@ namespace Blog.DataAccess.Repositories
                 .ToListAsync();
 
             var users = userEntities
-                .Select(b => LoginModel.Login(b.Id, b.Email, b.HashPassword))
+                .Select(b => LoginModel.Login(b.Id, b.Email, b.passwordHash))
                 .ToList();
 
             return users;
         }
 
-        public async Task<LoginModel?> GetUser(string email)
+        public async Task<LoginModel?> GetUserByEmail(string email)
         {
             var userEntity = await _context.UsersLogin
                 .AsNoTracking()
@@ -35,7 +35,7 @@ namespace Blog.DataAccess.Repositories
 
             if (userEntity == null) { return null; }
 
-            var user = LoginModel.Login(userEntity.Id, userEntity.Email, userEntity.HashPassword);
+            var user = LoginModel.Login(userEntity.Id, userEntity.Email, userEntity.passwordHash);
 
             return user;
         }
@@ -46,7 +46,7 @@ namespace Blog.DataAccess.Repositories
             {
                 Id = user.Id,
                 Email = user.Email,
-                HashPassword = user.HashPassword
+                passwordHash = user.PasswordHash
             };
 
             await _context.UsersLogin.AddAsync(newUser);
@@ -55,13 +55,13 @@ namespace Blog.DataAccess.Repositories
             return user.Id;
         }
 
-        public async Task<int> UpdateUser(int id, string email, int hashPassword)
+        public async Task<int> UpdateUser(int id, string email, string passwordHash)
         {
             var user = await _context.UsersLogin
                 .Where(b => b.Id == id)
                 .ExecuteUpdateAsync(s => s
                     .SetProperty(b => b.Email, b => email)
-                    .SetProperty(b => b.HashPassword, b => hashPassword));
+                    .SetProperty(b => b.passwordHash, b => passwordHash));
 
             return id;
         }

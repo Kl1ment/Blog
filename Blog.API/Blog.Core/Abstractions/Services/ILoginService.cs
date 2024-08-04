@@ -1,4 +1,5 @@
 ﻿using Blog.API.Models;
+using CSharpFunctionalExtensions;
 
 namespace Blog.Application.Services
 {
@@ -6,8 +7,8 @@ namespace Blog.Application.Services
     {
         Task<List<LoginModel>> GetAllUsers();
         Task<int> DeleteUser(int id);
-        Task<string> Login(string email, string password);
-        Task<string> Register(LoginModel loginModel);
+        Task<IResult<string>> Login(string email, string password);
+        Task<IResult<string>> Register(string email, string password);
         Task<int> UpdateUser(int id, string email, string password);
     }
 }

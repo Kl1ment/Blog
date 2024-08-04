@@ -1,5 +1,7 @@
 ﻿using Blog.API.Models;
 using Blog.DataAccess.Repositories;
+using Blog.Infrastucture;
+using CSharpFunctionalExtensions;
 
 namespace Blog.Application.Services
 {
@@ -7,10 +9,17 @@ namespace Blog.Application.Services
     {
 
         private readonly ILoginRepository _loginRepository;
+        private readonly IPasswordHasher _passwordHasher;
+        private readonly IJwtProvider _jwtProvider;
 
-        public LoginService(ILoginRepository loginRepository)
+        public LoginService(
+            ILoginRepository loginRepository,
+            IPasswordHasher passwordHasher,
+            IJwtProvider jwtProvider)
         {
             _loginRepository = loginRepository;
+            _passwordHasher = passwordHasher;
+            _jwtProvider = jwtProvider;
         }
 
         public async Task<List<LoginModel>> GetAllUsers()
@@ -18,44 +27,43 @@ namespace Blog.Application.Services
             return await _loginRepository.GetAllUsers();
         }
 
-        public async Task<string> Login(string email, string password)
+        public async Task<IResult<string>> Login(string email, string password)
         {
-            string error = string.Empty;
+            var userFromDB = await _loginRepository.GetUserByEmail(email);
 
-            var userFromDB = await _loginRepository.GetUser(email);
-
-            if (userFromDB == null)
+            if (userFromDB == null || !_passwordHasher.Verify(password, userFromDB.PasswordHash))
             {
-                error = "Пользователь не найден";
+                string error = "Неверный логин или пароль";
 
-                return error;
+                return Result.Failure<string>(error);
             }
-            
-            if (password.GetHashCode() != userFromDB.HashPassword)
-                error = "Неверный пароль";
 
-            return error;
+            var token = _jwtProvider.GenerateToken(userFromDB);
+
+            return Result.Success(token);
         }
 
-        public async Task<string> Register(LoginModel loginModel)
+        public async Task<IResult<string>> Register(string email, string password)
         {
-            string error = string.Empty;
-
-            if (await _loginRepository.GetUser(loginModel.Email) != null)
+            if (await _loginRepository.GetUserByEmail(email) != null)
             {
-                error = "Данный Email уже используется другим пользователем";
+                string error = "Данный Email уже используется другим пользователем";
 
-                return error;
+                return Result.Failure<string>(error);
             }
 
-            await _loginRepository.CreateUser(loginModel);
+            string passwordHash = _passwordHasher.Generate(password);
 
-            return error;
+            var newUser = LoginModel.Register(email, passwordHash);
+
+            await _loginRepository.CreateUser(newUser);
+
+            return Result.Success("Регистрация прошла успешно");
         }
 
         public async Task<int> UpdateUser(int id, string email, string password)
         {
-            int hashPassword = password.GetHashCode();
+            string hashPassword = _passwordHasher.Generate(password);
 
             return await _loginRepository.UpdateUser(id, email, hashPassword);
         }

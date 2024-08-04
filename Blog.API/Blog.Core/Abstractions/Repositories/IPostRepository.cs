@@ -1,5 +1,4 @@
 ﻿using Blog.Core.Abstractions;
-using Blog.Core.Models;
 
 namespace Blog.DataAccess.Repositories
 {

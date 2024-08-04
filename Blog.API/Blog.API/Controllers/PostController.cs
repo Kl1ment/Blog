@@ -10,7 +10,6 @@ namespace Blog.API.Controllers
     [Route("{id:int}")]
     public class PostController : ControllerBase
     {
-
         private readonly IPostService _postService;
 
         public PostController(IPostService postService)
@@ -25,9 +24,11 @@ namespace Blog.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreatePost([FromQuery] int authorId, PostRequest postRequest)
+        public async Task<ActionResult<Guid>> CreatePost(HttpContext context, int id, PostRequest postRequest)
         {
-            var newPost = PostModel.Create(Guid.NewGuid(), authorId, postRequest.Title, postRequest.TextData);
+            
+
+            var newPost = PostModel.Create(Guid.NewGuid(), id, postRequest.Title, postRequest.TextData);
 
             if (newPost.IsFailure)
             {
