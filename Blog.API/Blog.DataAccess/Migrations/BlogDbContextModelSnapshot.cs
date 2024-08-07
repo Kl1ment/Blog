@@ -22,6 +22,27 @@ namespace Blog.DataAccess.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Blog.DataAccess.Entities.LoginEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("passwordHash")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Login");
+                });
+
             modelBuilder.Entity("Blog.DataAccess.Entities.PostEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -47,28 +68,85 @@ namespace Blog.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AuthorId");
+
                     b.ToTable("Post");
                 });
 
-            modelBuilder.Entity("Blog.DataAccess.Entities.UserLoginEntity", b =>
+            modelBuilder.Entity("Blog.DataAccess.Entities.UserEntity", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("passwordHash")
+                    b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("UsersLogin");
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("UserEntityUserEntity", b =>
+                {
+                    b.Property<int>("FolowersId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("SubscriptionsId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("FolowersId", "SubscriptionsId");
+
+                    b.HasIndex("SubscriptionsId");
+
+                    b.ToTable("UserEntityUserEntity");
+                });
+
+            modelBuilder.Entity("Blog.DataAccess.Entities.PostEntity", b =>
+                {
+                    b.HasOne("Blog.DataAccess.Entities.UserEntity", "Author")
+                        .WithMany("Posts")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
+                });
+
+            modelBuilder.Entity("Blog.DataAccess.Entities.UserEntity", b =>
+                {
+                    b.HasOne("Blog.DataAccess.Entities.LoginEntity", "UserLogin")
+                        .WithOne("User")
+                        .HasForeignKey("Blog.DataAccess.Entities.UserEntity", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserLogin");
+                });
+
+            modelBuilder.Entity("UserEntityUserEntity", b =>
+                {
+                    b.HasOne("Blog.DataAccess.Entities.UserEntity", null)
+                        .WithMany()
+                        .HasForeignKey("FolowersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Blog.DataAccess.Entities.UserEntity", null)
+                        .WithMany()
+                        .HasForeignKey("SubscriptionsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Blog.DataAccess.Entities.LoginEntity", b =>
+                {
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Blog.DataAccess.Entities.UserEntity", b =>
+                {
+                    b.Navigation("Posts");
                 });
 #pragma warning restore 612, 618
         }

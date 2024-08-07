@@ -24,7 +24,7 @@ namespace Blog.DataAccess.Repositories
             var posts = new List<IPostModel>();
 
             posts.AddRange(postEntities
-                .Select(b => new PostResponse(b.Id, b.AuthorId, b.Title, b.TextData, b.CreatedDate, b.Views))
+                .Select(b => new PostDto(b.Id, b.AuthorId, b.CreatedDate, b.Title, b.TextData, b.Views ))
                 .ToList());
 
             return posts;

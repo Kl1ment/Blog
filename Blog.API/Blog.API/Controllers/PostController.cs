@@ -2,11 +2,13 @@
 using Blog.Application.Services;
 using Blog.Core.Abstractions;
 using Blog.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("{id:int}")]
     public class PostController : ControllerBase
     {
@@ -24,10 +26,8 @@ namespace Blog.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreatePost(HttpContext context, int id, PostRequest postRequest)
+        public async Task<ActionResult<Guid>> CreatePost(int id, PostRequest postRequest)
         {
-            
-
             var newPost = PostModel.Create(Guid.NewGuid(), id, postRequest.Title, postRequest.TextData);
 
             if (newPost.IsFailure)

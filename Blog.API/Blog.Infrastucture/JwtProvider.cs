@@ -33,6 +33,5 @@ namespace Blog.Infrastucture
 
             return tokenValue;
         }
-
     }
 }

@@ -8,7 +8,7 @@ namespace Blog.Application.Services
         Task<List<LoginModel>> GetAllUsers();
         Task<int> DeleteUser(int id);
         Task<IResult<string>> Login(string email, string password);
-        Task<IResult<string>> Register(string email, string password);
-        Task<int> UpdateUser(int id, string email, string password);
+        Task<IResult<string>> Register(string userName, string email, string password);
+        Task<IResult> UpdateUser(int id, string email, string password);
     }
 }

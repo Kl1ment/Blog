@@ -1,13 +1,11 @@
 ﻿using Blog.API.Contracts;
 using Blog.Application.Services;
-using CSharpFunctionalExtensions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
 
 namespace Blog.API.Controllers
 {
     [ApiController]
-    [Route("login")]
+    [Route("[action]")]
     public class LoginController : ControllerBase
     {
         private readonly ILoginService _loginService;
@@ -20,22 +18,22 @@ namespace Blog.API.Controllers
         [HttpPost]
         public async Task<ActionResult<string>> Login([FromBody] SchemaLogin schemaLogin)
         {
-            var result = await _loginService.Login(schemaLogin.Email, schemaLogin.Password);
+            var token = await _loginService.Login(schemaLogin.Email, schemaLogin.Password);
 
-            if (result.IsFailure)
+            if (token.IsFailure)
             {
-                return BadRequest(result.Error);
+                return BadRequest(token.Error);
             }
 
-            HttpContext.Response.Cookies.Append("asp", result.Value);
+            HttpContext.Response.Cookies.Append("asp", token.Value);
 
             return Ok();
         }
 
-        [HttpPost("register")]
+        [HttpPost]
         public async Task<ActionResult<string>> Register([FromBody] SchemaRegister schemaRegister)
         {
-            var result = await _loginService.Register(schemaRegister.Email, schemaRegister.Password);
+            var result = await _loginService.Register(schemaRegister.UserName, schemaRegister.Email, schemaRegister.Password);
 
             if (result.IsFailure)
             {
@@ -44,21 +42,5 @@ namespace Blog.API.Controllers
 
             return Ok(result.Value);
         }
-
-        //[HttpPut("{id:int}")]
-        //public async Task<ActionResult<int>> UpdateUser(int id, [FromBody] SchemaRegister schemaRegister)
-        //{
-        //    var userId = _loginService.UpdateUser(id, schemaRegister.Email, schemaRegister.Password);
-
-        //    return Ok(userId);
-        //}
-
-        [HttpDelete("{id:int}")]
-        public async Task<ActionResult<int>> DeleteUser(int id)
-        {
-            return await _loginService.DeleteUser(id);
-        }
-
-
     }
 }

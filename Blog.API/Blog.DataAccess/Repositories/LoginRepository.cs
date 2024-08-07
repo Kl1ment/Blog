@@ -14,66 +14,68 @@ namespace Blog.DataAccess.Repositories
             _context = contxt;
         }
 
-        public async Task<List<LoginModel>> GetAllUsers()
+        public async Task<List<LoginModel>> GetAll()
         {
-            var userEntities = await _context.UsersLogin
+            var userEntities = await _context.Login
                 .AsNoTracking()
                 .ToListAsync();
 
             var users = userEntities
-                .Select(b => LoginModel.Login(b.Id, b.Email, b.passwordHash))
+                .Select(b => LoginModel.Create(b.Id, b.Email, b.passwordHash))
                 .ToList();
 
             return users;
         }
 
-        public async Task<LoginModel?> GetUserByEmail(string email)
+        public async Task<LoginModel?> GetByEmail(string email)
         {
-            var userEntity = await _context.UsersLogin
+            var userEntity = await _context.Login
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Email == email);
 
             if (userEntity == null) { return null; }
 
-            var user = LoginModel.Login(userEntity.Id, userEntity.Email, userEntity.passwordHash);
+            var user = LoginModel.Create(userEntity.Id, userEntity.Email, userEntity.passwordHash);
 
             return user;
         }
 
-        public async Task<int> CreateUser(LoginModel user)
+        public async Task<int> Add(LoginModel user)
         {
-            var newUser = new UserLoginEntity
+            var newUser = new LoginEntity
             {
-                Id = user.Id,
                 Email = user.Email,
                 passwordHash = user.PasswordHash
             };
 
-            await _context.UsersLogin.AddAsync(newUser);
+            await _context.Login.AddAsync(newUser);
             await _context.SaveChangesAsync();
 
-            return user.Id;
+            return newUser.Id;
         }
 
-        public async Task<int> UpdateUser(int id, string email, string passwordHash)
+        public async Task<int> Update(int id, string email, string passwordHash)
         {
-            var user = await _context.UsersLogin
+            var user = await _context.Login
                 .Where(b => b.Id == id)
                 .ExecuteUpdateAsync(s => s
                     .SetProperty(b => b.Email, b => email)
                     .SetProperty(b => b.passwordHash, b => passwordHash));
 
+            await _context.SaveChangesAsync();
+
             return id;
         }
 
-        public async Task<int> DeleteUser(int id)
+        public async Task<int> Delete(int id)
         {
-            await _context.UsersLogin
+            await _context.Login
                 .Where(b => b.Id == id)
                 .ExecuteDeleteAsync();
 
+            await _context.SaveChangesAsync();
+
             return id;
         }
-
     }
 }

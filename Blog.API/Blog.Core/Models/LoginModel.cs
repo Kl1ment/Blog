@@ -6,7 +6,11 @@
         public string Email { get; }
         public string PasswordHash { get; }
 
-        static private int _currentId = 1;
+        private LoginModel(string email, string passwordHash)
+        {
+            Email = email;
+            PasswordHash = passwordHash;
+        }
 
         private LoginModel(int id, string email, string passwordHash)
         {
@@ -15,12 +19,12 @@
             PasswordHash = passwordHash;
         }
 
-        public static LoginModel Register(string email, string passwordHash)
+        public static LoginModel Create(string email, string passwordHash)
         {
-            return new LoginModel(_currentId++, email, passwordHash);
+            return new LoginModel(email, passwordHash);
         }
 
-        public static LoginModel Login(int id, string email, string passwordHash)
+        public static LoginModel Create(int id, string email, string passwordHash)
         {
             return new LoginModel(id, email, passwordHash);
         }
