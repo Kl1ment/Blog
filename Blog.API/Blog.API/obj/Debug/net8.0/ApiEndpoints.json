@@ -161,6 +161,37 @@
   },
   {
     "ContainingType": "Blog.API.Controllers.UserSettingsController",
+    "Method": "UpdateUser",
+    "RelativePath": "settings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "schemaRegister",
+        "Type": "Blog.API.Contracts.SchemaRegister",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserSettingsController",
     "Method": "DeleteUser",
     "RelativePath": "settings/{id}",
     "HttpMethod": "DELETE",

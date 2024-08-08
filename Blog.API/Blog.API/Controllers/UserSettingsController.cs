@@ -1,5 +1,6 @@
 ﻿using Blog.API.Contracts;
 using Blog.Application.Services;
+using Blog.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.API.Controllers
@@ -9,35 +10,34 @@ namespace Blog.API.Controllers
     [Route("settings")]
     public class UserSettingsController : ControllerBase
     {
-
-        private readonly ILoginService _loginService;
         private readonly IUserService _userService;
 
-        public UserSettingsController(
-            ILoginService loginService,
-            IUserService userService)
+        public UserSettingsController(IUserService userService)
         {
-            _loginService = loginService;
             _userService = userService;
-
         }
 
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult<string>> UpdateUser(int id, [FromBody] SchemaRegister schemaRegister)
+        {
+            var user = UserModel.Create(id, schemaRegister.UserName);
 
+            var result = await _userService.UpdateUser(schemaRegister.Email, schemaRegister.Password, user);
 
-        //[HttpPut("{id:int}")]
-        //public async Task<ActionResult<int>> UpdateUser(int id, [FromBody] SchemaRegister schemaRegister)
-        //{
-        //    var userId = await _loginService.UpdateUser(id, schemaRegister.Email, schemaRegister.Password);
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
 
-        //    return Ok(userId);
-        //}
+            return Ok(result.Value);
+        }
 
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<int>> DeleteUser(int id)
         {
             await _userService.DeleteUser(id);
 
-            return await _loginService.DeleteUser(id);
+            return Ok(id);
         }
 
     }

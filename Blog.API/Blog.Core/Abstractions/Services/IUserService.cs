@@ -8,6 +8,6 @@ namespace Blog.Application.Services
         Task<IResult> DeleteUser(int id);
         Task<IResult<UserModel, string>> GetUserById(int id);
         Task<IResult<UserModel, string>> GetUserByUserName(string userName);
-        Task<IResult> UpdateUser(UserModel user);
+        Task<IResult<string>> UpdateUser(string email, string password, UserModel userModel);
     }
 }

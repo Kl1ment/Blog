@@ -1,9 +1,7 @@
 using Blog.API.Extentions;
-using Blog.Application.Services;
+using Blog.Application;
 using Blog.DataAccess;
-using Blog.DataAccess.Repositories;
 using Blog.Infrastucture;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,22 +18,10 @@ services.AddControllers();
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
 
-services.AddDbContext<BlogDbContext>(
-    options =>
-    {
-        options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(BlogDbContext)));
-    });
+services.AddReposytory(builder.Configuration);
+services.AddApplication();
+services.AddInfrastucture();
 
-services.AddScoped<ILoginService, LoginService>();
-services.AddScoped<IUserService, UserService>();
-services.AddScoped<IPostService, PostService>();
-
-services.AddScoped<ILoginRepository, LoginRepository>();
-services.AddScoped<IUserRepository, UserRepository>();
-services.AddScoped<IPostRepository, PostRepository>();
-
-services.AddScoped<IPasswordHasher, PasswordHasher>();
-services.AddScoped<IJwtProvider, JwtProvider>();
 
 var app = builder.Build();
 

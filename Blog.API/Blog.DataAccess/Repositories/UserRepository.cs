@@ -1,5 +1,6 @@
 ﻿using Blog.Core.Models;
 using Blog.DataAccess.Entities;
+using CSharpFunctionalExtensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blog.DataAccess.Repositories
@@ -49,7 +50,7 @@ namespace Blog.DataAccess.Repositories
         //}
 
         public async Task<int> Add(UserModel user)
-        {
+        {           
             var userEntity = new UserEntity
             {
                 Id = user.Id,

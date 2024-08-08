@@ -70,24 +70,5 @@ namespace Blog.Application.Services
 
             return Result.Success("Регистрация прошла успешно");
         }
-
-        public async Task<IResult> UpdateUser(int id, string email, string password)
-        {
-            if (await _loginRepository.GetByEmail(email) != null)
-            {
-                string error = "Данный Email уже используется другим пользователем";
-
-                return Result.Failure<string>(error);
-            }
-
-            string hashPassword = _passwordHasher.Generate(password);
-
-            return Result.Success(await _loginRepository.Update(id, email, hashPassword));
-        }
-
-        public async Task<int> DeleteUser(int id)
-        {
-            return await _loginRepository.Delete(id);
-        }
     }
 }

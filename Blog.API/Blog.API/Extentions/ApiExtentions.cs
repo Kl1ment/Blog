@@ -37,7 +37,7 @@ namespace Blog.API.Extentions
                     };
                 });
 
-            
+
 
             services.AddAuthorization();
         }
