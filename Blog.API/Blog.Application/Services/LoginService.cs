@@ -26,11 +26,6 @@ namespace Blog.Application.Services
             _jwtProvider = jwtProvider;
         }
 
-        public async Task<List<LoginModel>> GetAllUsers()
-        {
-            return await _loginRepository.GetAll();
-        }
-
         public async Task<IResult<string>> Login(string email, string password)
         {
             var userFromDb = await _loginRepository.GetByEmail(email);

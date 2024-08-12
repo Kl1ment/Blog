@@ -1,183 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\",
+  "WorkspaceRootPath": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\controllers\\useractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\useractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\contracts\\schemaregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\schemaregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\contracts\\postrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\contracts\\postrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\postrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\abstractions\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.application\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\abstractions\\ipostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\ipostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\models\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\models\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.infrastucture\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|solutionrelative:blog.infrastucture\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.api\\controllers\\useractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\useractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\usersettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.application\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.infrastucture\\infrastuctureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|solutionrelative:blog.infrastucture\\infrastuctureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\abstractions\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\abstractions\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.application\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\abstractions\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\models\\postmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\postmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\configurations\\loginconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\configurations\\loginconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.core\\abstractions\\repositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\abstractions\\repositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\repositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.api\\extentions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\extentions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.core\\abstractions\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.core\\abstractions\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\entities\\loginentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.infrastucture\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|solutionrelative:blog.infrastucture\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\contracts\\schemaregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\schemaregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\abstractions\\ipostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\abstractions\\ipostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\repositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.application\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFE97D9-3355-4A45-9485-6A2A589A028B}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.infrastucture\\infrastuctureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|solutionrelative:blog.infrastucture\\infrastuctureextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.core\\models\\postmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B769C6C7-FD50-4109-81A7-C769720E6E11}|Blog.Core\\Blog.Core.csproj|solutionrelative:blog.core\\models\\postmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\configurations\\loginconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\configurations\\loginconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\entities\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\entities\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\entities\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.infrastucture\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.infrastucture\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BC4A40E-6CAB-4044-AECC-98EEA5FF0BBE}|Blog.Infrastucture\\Blog.Infrastucture.csproj|solutionrelative:blog.infrastucture\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\contracts\\schemalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\contracts\\schemalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\contracts\\schemalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.api\\blog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.api\\blog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\blog.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blog.Core\\Abstractions\\IPostRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blog.Core\\Abstractions\\IPostService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|c:\\users\\jkaes\\documents\\github\\blog\\blog.api\\blog.dataaccess\\migrations\\20240805214234_init1.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\blog.dataaccess\\migrations\\20240805214234_init1.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAB25C54-89D4-4CC0-B096-B425C5B396CF}|Blog.DataAccess\\Blog.DataAccess.csproj|solutionrelative:blog.dataaccess\\migrations\\20240805214234_init1.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:1:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:1:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|d:\\program files\\jetbrains\\blog\\blog.api\\blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:2:0:{54192DA3-2217-4070-8151-7A1474F323A7}|Blog.API\\Blog.API.csproj|solutionrelative:blog.api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -187,93 +194,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\UserResponse.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Contracts\\UserResponse.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\UserResponse.cs",
-              "RelativeToolTip": "Blog.API\\Contracts\\UserResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T11:05:56.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UserActionController.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\UserActionController.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\UserActionController.cs",
               "RelativeDocumentMoniker": "Blog.API\\Controllers\\UserActionController.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\UserActionController.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\UserActionController.cs",
               "RelativeToolTip": "Blog.API\\Controllers\\UserActionController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABIAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T10:01:42.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Blog.DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Blog.DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T20:51:04.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:43:34.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Blog.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "Blog.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T21:21:35.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IUserService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IUserService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IUserService.cs",
               "RelativeToolTip": "Blog.Core\\Abstractions\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBUAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T13:48:29.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Services\\LoginService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\LoginService.cs",
+              "RelativeToolTip": "Blog.Application\\Services\\LoginService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T21:40:49.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Services\\ILoginService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\ILoginService.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\Services\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T23:04:41.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Blog.API\\Controllers\\PostsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:41:04.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserSettingsController.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\UserSettingsController.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Controllers\\UserSettingsController.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\UserSettingsController.cs",
+              "RelativeToolTip": "Blog.API\\Controllers\\UserSettingsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:54:23.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\UserResponse.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Contracts\\UserResponse.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\UserResponse.cs",
+              "RelativeToolTip": "Blog.API\\Contracts\\UserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:05:56.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Blog.DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Blog.DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:51:04.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Models\\UserModel.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\UserModel.cs",
+              "RelativeToolTip": "Blog.Core\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:54:29.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\PostDto.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Models\\PostDto.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\PostDto.cs",
+              "RelativeToolTip": "Blog.Core\\Models\\PostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T11:44:47.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PostRequest.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\PostRequest.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\PostRequest.cs",
               "RelativeDocumentMoniker": "Blog.API\\Contracts\\PostRequest.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\PostRequest.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\PostRequest.cs",
               "RelativeToolTip": "Blog.API\\Contracts\\PostRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -282,115 +341,217 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SchemaRegister.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaRegister.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Contracts\\SchemaRegister.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaRegister.cs",
-              "RelativeToolTip": "Blog.API\\Contracts\\SchemaRegister.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Blog.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:33:06.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Blog.API\\Controllers\\PostController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACIAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T12:41:04.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\PostService.cs",
-              "RelativeDocumentMoniker": "Blog.Application\\Services\\PostService.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\PostService.cs",
-              "RelativeToolTip": "Blog.Application\\Services\\PostService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T12:33:14.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\UserModel.cs",
-              "RelativeToolTip": "Blog.Core\\Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T20:54:29.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Blog.API\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T19:41:32.109Z",
+              "WhenOpened": "2024-08-07T21:21:35.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "UserSettingsController.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\UserSettingsController.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Controllers\\UserSettingsController.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\UserSettingsController.cs",
-              "RelativeToolTip": "Blog.API\\Controllers\\UserSettingsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAkAAAA",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:54:23.119Z",
+              "WhenOpened": "2024-08-12T09:43:34.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "Blog.Application\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\Services\\LoginService.cs",
-              "RelativeToolTip": "Blog.Application\\Services\\LoginService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T21:40:49.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\PostRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\Repositories\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\PostRepository.cs",
               "RelativeToolTip": "Blog.DataAccess\\Repositories\\PostRepository.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwEEAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T22:19:29.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T20:48:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "Blog.DataAccess\\Repositories\\LoginRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\LoginRepository.cs",
+              "RelativeToolTip": "Blog.DataAccess\\Repositories\\LoginRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:52:02.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiExtensions.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Extentions\\ApiExtensions.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Extentions\\ApiExtensions.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Extentions\\ApiExtensions.cs",
+              "RelativeToolTip": "Blog.API\\Extentions\\ApiExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:55:13.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Services\\PostService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\Services\\PostService.cs",
+              "RelativeToolTip": "Blog.Application\\Services\\PostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:33:14.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "Blog.Infrastucture\\JwtProvider.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\JwtProvider.cs",
+              "RelativeToolTip": "Blog.Infrastucture\\JwtProvider.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T21:46:46.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Blog.Core\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:01:48.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Repositories\\IPostRepository.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\IPostRepository.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\Repositories\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T22:02:55.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IPostService.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Services\\IPostService.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\IPostService.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\Services\\IPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T22:04:11.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginEntity.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\LoginEntity.cs",
+              "RelativeDocumentMoniker": "Blog.DataAccess\\Entities\\LoginEntity.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\LoginEntity.cs",
+              "RelativeToolTip": "Blog.DataAccess\\Entities\\LoginEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:43:56.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Blog.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Blog.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:45:59.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Blog.DataAccess\\Entities\\UserEntity.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "Blog.DataAccess\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:13:09.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SchemaRegister.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaRegister.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Contracts\\SchemaRegister.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaRegister.cs",
+              "RelativeToolTip": "Blog.API\\Contracts\\SchemaRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:33:06.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Blog.API\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Blog.API\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T19:41:32.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "IPostModel.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostModel.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostModel.cs",
               "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\IPostModel.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostModel.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostModel.cs",
               "RelativeToolTip": "Blog.Core\\Abstractions\\IPostModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -398,47 +559,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\PostDto.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Models\\PostDto.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\PostDto.cs",
-              "RelativeToolTip": "Blog.Core\\Models\\PostDto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T11:44:47.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApiExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Extentions\\ApiExtentions.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Extentions\\ApiExtentions.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Extentions\\ApiExtentions.cs",
-              "RelativeToolTip": "Blog.API\\Extentions\\ApiExtentions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:55:13.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "Blog.Infrastucture\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\JwtProvider.cs",
-              "RelativeToolTip": "Blog.Infrastucture\\JwtProvider.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBQAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T21:46:46.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "BlogDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\BlogDbContext.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\BlogDbContext.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\BlogDbContext.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\BlogDbContext.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\BlogDbContext.cs",
               "RelativeToolTip": "Blog.DataAccess\\BlogDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -446,23 +571,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\ILoginService.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Services\\ILoginService.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Services\\ILoginService.cs",
-              "RelativeToolTip": "Blog.Core\\Abstractions\\Services\\ILoginService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:04:41.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "RepositoryExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\RepositoryExtensions.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\RepositoryExtensions.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\RepositoryExtensions.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\RepositoryExtensions.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\RepositoryExtensions.cs",
               "RelativeToolTip": "Blog.DataAccess\\RepositoryExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -470,11 +583,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 44,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
               "RelativeDocumentMoniker": "Blog.API\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
               "RelativeToolTip": "Blog.API\\docker-compose.yml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
@@ -482,11 +595,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "ApplicationExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\ApplicationExtensions.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\ApplicationExtensions.cs",
               "RelativeDocumentMoniker": "Blog.Application\\ApplicationExtensions.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Application\\ApplicationExtensions.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Application\\ApplicationExtensions.cs",
               "RelativeToolTip": "Blog.Application\\ApplicationExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -494,23 +607,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Program.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Program.cs",
               "RelativeDocumentMoniker": "Blog.API\\Program.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Program.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Program.cs",
               "RelativeToolTip": "Blog.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:01:21.345Z"
+              "WhenOpened": "2024-08-02T22:01:21.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Blog.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\appsettings.Development.json",
               "RelativeToolTip": "Blog.API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -518,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "InfrastuctureExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\InfrastuctureExtensions.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\InfrastuctureExtensions.cs",
               "RelativeDocumentMoniker": "Blog.Infrastucture\\InfrastuctureExtensions.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\InfrastuctureExtensions.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\InfrastuctureExtensions.cs",
               "RelativeToolTip": "Blog.Infrastucture\\InfrastuctureExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -530,35 +644,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Blog.API\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Blog.API\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T21:29:08.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "Blog.DataAccess\\Repositories\\LoginRepository.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Repositories\\LoginRepository.cs",
-              "RelativeToolTip": "Blog.DataAccess\\Repositories\\LoginRepository.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAA3wDgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T12:52:02.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "PostModel.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\PostModel.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\PostModel.cs",
               "RelativeDocumentMoniker": "Blog.Core\\Models\\PostModel.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\PostModel.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Models\\PostModel.cs",
               "RelativeToolTip": "Blog.Core\\Models\\PostModel.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAzwCAAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -566,35 +656,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginEntity.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\LoginEntity.cs",
-              "RelativeDocumentMoniker": "Blog.DataAccess\\Entities\\LoginEntity.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\LoginEntity.cs",
-              "RelativeToolTip": "Blog.DataAccess\\Entities\\LoginEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:43:56.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Blog.Core\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:01:48.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "LoginConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
               "RelativeToolTip": "Blog.DataAccess\\Configurations\\LoginConfiguration.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAgwAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -602,47 +668,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Blog.DataAccess\\Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "Blog.DataAccess\\Entities\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T21:13:09.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ILoginRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
-              "RelativeToolTip": "Blog.Core\\Abstractions\\Repositories\\ILoginRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T20:48:38.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Blog.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "Blog.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T21:45:59.864Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 36,
               "Title": "PostConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\PostConfiguration.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\PostConfiguration.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\Configurations\\PostConfiguration.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\PostConfiguration.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Configurations\\PostConfiguration.cs",
               "RelativeToolTip": "Blog.DataAccess\\Configurations\\PostConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -652,9 +682,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "PostEntity.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\PostEntity.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\PostEntity.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\Entities\\PostEntity.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\PostEntity.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Entities\\PostEntity.cs",
               "RelativeToolTip": "Blog.DataAccess\\Entities\\PostEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -664,9 +694,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "20240805214234_init1.3.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
               "RelativeDocumentMoniker": "Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
               "RelativeToolTip": "Blog.DataAccess\\Migrations\\20240805214234_init1.3.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -676,9 +706,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\JwtOptions.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\JwtOptions.cs",
               "RelativeDocumentMoniker": "Blog.Infrastucture\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.Infrastucture\\JwtOptions.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Infrastucture\\JwtOptions.cs",
               "RelativeToolTip": "Blog.Infrastucture\\JwtOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -688,9 +718,9 @@
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "SchemaLogin.cs",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaLogin.cs",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaLogin.cs",
               "RelativeDocumentMoniker": "Blog.API\\Contracts\\SchemaLogin.cs",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaLogin.cs",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Contracts\\SchemaLogin.cs",
               "RelativeToolTip": "Blog.API\\Contracts\\SchemaLogin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -701,7 +731,9 @@
               "DocumentIndex": 41,
               "Title": "IPostRepository.cs",
               "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\IPostRepository.cs",
               "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostRepository.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\IPostRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T12:34:35.607Z"
@@ -710,9 +742,9 @@
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "Blog.API.csproj",
-              "DocumentMoniker": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Blog.API.csproj",
+              "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Blog.API.csproj",
               "RelativeDocumentMoniker": "Blog.API\\Blog.API.csproj",
-              "ToolTip": "C:\\Users\\jkaes\\Documents\\GitHub\\Blog\\Blog.API\\Blog.API\\Blog.API.csproj",
+              "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\Blog.API.csproj",
               "RelativeToolTip": "Blog.API\\Blog.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -720,10 +752,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
+              "RelativeDocumentMoniker": "Blog.API\\docker-compose.yml",
               "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.API\\docker-compose.yml",
+              "RelativeToolTip": "Blog.API\\docker-compose.yml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-08-04T14:22:43.383Z"
@@ -733,7 +767,9 @@
               "DocumentIndex": 42,
               "Title": "IPostService.cs",
               "DocumentMoniker": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostService.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Abstractions\\IPostService.cs",
               "ToolTip": "D:\\Program Files\\JetBrains\\Blog\\Blog.API\\Blog.Core\\Abstractions\\IPostService.cs",
+              "RelativeToolTip": "Blog.Core\\Abstractions\\IPostService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T13:49:53.797Z"

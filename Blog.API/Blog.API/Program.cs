@@ -1,4 +1,4 @@
-using Blog.API.Extentions;
+using Blog.API.Extensions;
 using Blog.Application;
 using Blog.DataAccess;
 using Blog.Infrastucture;

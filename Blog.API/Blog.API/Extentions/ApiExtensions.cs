@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace Blog.API.Extentions
+namespace Blog.API.Extensions
 {
-    public static class ApiExtentions
+    public static class ApiExtensions
     {
 
         public static void AddApiAuthentication(

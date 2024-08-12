@@ -13,9 +13,14 @@ namespace Blog.Application.Services
             _postRepository = postRepository;
         }
 
-        public async Task<List<IPostModel>> GetByAuthorId(int authorId)
+        public async Task<List<IPostModel>> GetByAuthorId(int authorId, int page)
         {
-            return await _postRepository.GetByAuthorId(authorId);
+            return await _postRepository.GetByAuthorId(authorId, page);
+        }
+
+        public async Task<List<IPostModel>> GetNewsFeed(int userId, int page)
+        {
+            return await _postRepository.GetNewsFeed(userId, page);
         }
 
         public async Task<Guid> Create(IPostModel postModel)

@@ -9,22 +9,9 @@ namespace Blog.DataAccess.Repositories
 
         private readonly BlogDbContext _context;
 
-        public LoginRepository(BlogDbContext contxt)
+        public LoginRepository(BlogDbContext context)
         {
-            _context = contxt;
-        }
-
-        public async Task<List<LoginModel>> GetAll()
-        {
-            var userEntities = await _context.Login
-                .AsNoTracking()
-                .ToListAsync();
-
-            var users = userEntities
-                .Select(b => LoginModel.Create(b.Id, b.Email, b.passwordHash))
-                .ToList();
-
-            return users;
+            _context = context;
         }
 
         public async Task<LoginModel?> GetByEmail(string email)

@@ -5,6 +5,8 @@ namespace Blog.Application.Services
 {
     public interface IUserService
     {
+        Task<List<UserModel>> GetUsers(int page);
+
         Task<IResult> DeleteUser(int id);
         
         Task<IResult<UserModel, string>> GetUserById(int id);

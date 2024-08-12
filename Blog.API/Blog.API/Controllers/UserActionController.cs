@@ -1,11 +1,13 @@
 ﻿using Blog.API.Contracts;
 using Blog.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace Blog.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class UserActionController : ControllerBase
     {
@@ -16,8 +18,16 @@ namespace Blog.API.Controllers
             _userService = userService;
         }
 
-        [HttpPut]
-        public async Task<ActionResult> Subscribe([FromBody] int authorId)
+        [HttpGet("users")]
+        public async Task<List<UserResponse>> GetUsers([FromQuery] int page)
+        {
+            var users = await _userService.GetUsers(page);
+
+            return users.Select(u => new UserResponse(u.Id, u.UserName)).ToList();
+        }
+
+        [HttpPut("{authorId:int}")]
+        public async Task<ActionResult> Subscribe([FromRoute] int authorId)
         {
             int userId = Convert.ToInt32(HttpContext.User.FindFirstValue("userId"));
 
@@ -25,10 +35,10 @@ namespace Blog.API.Controllers
 
             if (result.IsFailure)
             {
-                return BadRequest(result);
+                return BadRequest();
             }
 
-            return Ok(result);
+            return Ok();
         }
 
         [HttpPut("subscriptions")]
@@ -40,10 +50,10 @@ namespace Blog.API.Controllers
 
             if (result.IsFailure)
             {
-                return BadRequest(result);
+                return BadRequest();
             }
 
-            return Ok(result);
+            return Ok();
         }
 
         [HttpGet("subscriptions")]
@@ -56,20 +66,20 @@ namespace Blog.API.Controllers
                 return BadRequest();
             }
 
-            return Ok(subscriptions);
+            return Ok(subscriptions.Select(u => new UserResponse(u.Id, u.UserName)).ToList());
         }
 
         [HttpGet("followers")]
         public async Task<ActionResult<List<UserResponse>>> GetFollowers([FromQuery] int userId)
         {
-            var subscriptions = await _userService.GetFollowers(userId);
+            var followers = await _userService.GetFollowers(userId);
 
-            if (subscriptions == null)
+            if (followers == null)
             {
                 return BadRequest();
             }
 
-            return Ok(subscriptions);
+            return Ok(followers.Select(u => new UserResponse(u.Id, u.UserName)).ToList());
         }
     }
 }

@@ -4,10 +4,10 @@ namespace Blog.Core.Models
 {
     public class PostDto : IPostModel
     {
-        public PostDto(Guid id, int autorId, string title, string textData, DateTime createdDate, int views)
+        public PostDto(Guid id, int authorId, string title, string textData, DateTime createdDate, int views)
         {
             Id = id;
-            AuthorId = autorId;
+            AuthorId = authorId;
             Title = title;
             TextData = textData;
             CreatedDate = createdDate;

@@ -89,13 +89,13 @@ namespace Blog.DataAccess.Migrations
 
             modelBuilder.Entity("UserEntityUserEntity", b =>
                 {
-                    b.Property<int>("FolowersId")
+                    b.Property<int>("FollowersId")
                         .HasColumnType("integer");
 
                     b.Property<int>("SubscriptionsId")
                         .HasColumnType("integer");
 
-                    b.HasKey("FolowersId", "SubscriptionsId");
+                    b.HasKey("FollowersId", "SubscriptionsId");
 
                     b.HasIndex("SubscriptionsId");
 
@@ -128,7 +128,7 @@ namespace Blog.DataAccess.Migrations
                 {
                     b.HasOne("Blog.DataAccess.Entities.UserEntity", null)
                         .WithMany()
-                        .HasForeignKey("FolowersId")
+                        .HasForeignKey("FollowersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

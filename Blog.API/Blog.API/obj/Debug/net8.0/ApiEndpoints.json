@@ -1,16 +1,42 @@
 [
   {
-    "ContainingType": "Blog.API.Controllers.PostController",
-    "Method": "GetPostsByAuthorId",
-    "RelativePath": "{id}",
+    "ContainingType": "Blog.API.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "schemaLogin",
+        "Type": "Blog.API.Contracts.SchemaLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostsController",
+    "Method": "GetNewsFeed",
+    "RelativePath": "Posts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "page",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -26,18 +52,13 @@
     ]
   },
   {
-    "ContainingType": "Blog.API.Controllers.PostController",
+    "ContainingType": "Blog.API.Controllers.PostsController",
     "Method": "CreatePost",
-    "RelativePath": "{id}",
+    "RelativePath": "Posts",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
       {
         "Name": "postRequest",
         "Type": "Blog.API.Contracts.PostRequest",
@@ -57,9 +78,9 @@
     ]
   },
   {
-    "ContainingType": "Blog.API.Controllers.PostController",
+    "ContainingType": "Blog.API.Controllers.PostsController",
     "Method": "DeletePost",
-    "RelativePath": "{id}",
+    "RelativePath": "Posts",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -68,11 +89,6 @@
         "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -88,42 +104,27 @@
     ]
   },
   {
-    "ContainingType": "Blog.API.Controllers.AdminController",
-    "Method": "GetAllUser",
-    "RelativePath": "admin",
+    "ContainingType": "Blog.API.Controllers.PostsController",
+    "Method": "GetPostsByAuthorId",
+    "RelativePath": "Posts/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Blog.API.Models.LoginModel, Blog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Blog.API.Controllers.LoginController",
-    "Method": "Login",
-    "RelativePath": "Login",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "schemaLogin",
-        "Type": "Blog.API.Contracts.SchemaLogin",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "System.Collections.Generic.List\u00601[[Blog.Core.Abstractions.IPostModel, Blog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -207,6 +208,116 @@
     "ReturnTypes": [
       {
         "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserActionController",
+    "Method": "Subscribe",
+    "RelativePath": "UserAction/{authorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserActionController",
+    "Method": "GetFollowers",
+    "RelativePath": "UserAction/followers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Blog.API.Contracts.UserResponse, Blog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserActionController",
+    "Method": "Unsubscribe",
+    "RelativePath": "UserAction/subscriptions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserActionController",
+    "Method": "GetSubscriptions",
+    "RelativePath": "UserAction/subscriptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Blog.API.Contracts.UserResponse, Blog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.UserActionController",
+    "Method": "GetUsers",
+    "RelativePath": "UserAction/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Blog.API.Contracts.UserResponse, Blog.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

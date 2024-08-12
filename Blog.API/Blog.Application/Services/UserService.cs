@@ -20,6 +20,11 @@ namespace Blog.Application.Services
             _passwordHasher = passwordHasher;
         }
 
+        public async Task<List<UserModel>> GetUsers(int page)
+        {
+            return await _userRepository.Get(page);
+        }
+
         public async Task<IResult<UserModel, string>> GetUserById(int id)
         {
             var user = await _userRepository.GetById(id);

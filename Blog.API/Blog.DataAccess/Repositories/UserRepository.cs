@@ -10,9 +10,24 @@ namespace Blog.DataAccess.Repositories
 
         private readonly BlogDbContext _context;
 
+        private const int PageSize = 10;
+
         public UserRepository(BlogDbContext context)
         {
             _context = context;
+        }
+
+        public async Task<List<UserModel>> Get(int page)
+        {
+            var users = await _context.Users
+                .AsNoTracking()
+                .OrderByDescending(u => u.Followers.Count())
+                .Skip((page - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
+
+            return users
+                .Select(u => UserModel.Create(u.Id, u.UserName)).ToList();
         }
 
         public async Task<UserModel?> GetByUserName(string userName)
@@ -88,50 +103,43 @@ namespace Blog.DataAccess.Repositories
 
         public async Task<IResult> Subscribe(int userId, int authorId)
         {
-            var author = await _context.Users
-                .FirstOrDefaultAsync(a => a.Id == authorId);
+            var (user, author) = await GetUserAndAuthor(userId, authorId);
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Id == userId);
-
-            if (user != null && author != null)
+            if (user == null || author == null || userId == authorId)
             {
-                author.Folowers.Add(user);
-                user.Subscriptions.Add(author);
-
-                await _context.SaveChangesAsync();
-
-                return Result.Success();
+                return Result.Failure("Ошибка");
             }
 
-            return Result.Failure("Неизвестная ошибка");
+            user.Subscriptions.Add(author);
+            author.Followers.Add(user);
+
+            await _context.SaveChangesAsync();
+
+            return Result.Success();
         }
 
         public async Task<IResult> Unsubscribe(int userId, int authorId)
         {
-            var author = await _context.Users
-                .FirstOrDefaultAsync(a => a.Id == authorId);
+            var (user, author) = await GetUserAndAuthor(userId, authorId);
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Id == userId);
-
-            if (user != null && author != null)
+            if (user == null || author == null || userId == authorId)
             {
-                author.Folowers.Remove(user);
-                user.Subscriptions.Remove(author);
-
-                await _context.SaveChangesAsync();
-
-                return Result.Success();
+                return Result.Failure("Ошибка");
             }
 
-            return Result.Failure("Неизвестная ошибка");
+            user.Subscriptions.Remove(author);
+            author.Followers.Remove(user);
+
+            await _context.SaveChangesAsync();
+
+            return Result.Success();
         }
 
         public async Task<List<UserModel>?> GetSubscriptions(int userId)
         {
             var user = await _context.Users
                 .AsNoTracking()
+                .Include(u => u.Subscriptions)
                 .FirstOrDefaultAsync(u => u.Id == userId);
 
             var subscriptions = user?.Subscriptions
@@ -141,17 +149,33 @@ namespace Blog.DataAccess.Repositories
             return subscriptions;
         }
 
-        public async Task<List<UserModel>?> GetFollowers(int userId)
+        public async Task<List<UserModel>?> GetFollowers(int authorId)
         {
-            var user = await _context.Users
+            var author = await _context.Users
                 .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.Id == userId);
+                .Include(a => a.Followers)
+                .FirstOrDefaultAsync(a => a.Id == authorId);
 
-            var subscriptions = user?.Folowers
+            var Followers = author?.Followers
                 .Select(s => UserModel.Create(s.Id, s.UserName))
                 .ToList();
 
-            return subscriptions;
+            return Followers;
+        }
+
+        async private Task<(UserEntity? user, UserEntity? author)> GetUserAndAuthor(int userId, int authorId)
+        {
+            var users = _context.Users;
+
+            var user = await users
+                .Include(u => u.Subscriptions)
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            var author = await users
+                .Include(a => a.Followers)
+                .FirstOrDefaultAsync(a => a.Id == authorId);
+
+            return (user, author);
         }
     }
 }

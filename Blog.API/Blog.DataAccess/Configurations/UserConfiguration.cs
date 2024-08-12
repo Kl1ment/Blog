@@ -21,10 +21,10 @@ public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
 
         builder
             .HasMany(u => u.Subscriptions)
-            .WithMany(u => u.Folowers);
+            .WithMany(u => u.Followers);
 
         builder
-            .HasMany(u => u.Folowers)
+            .HasMany(u => u.Followers)
             .WithMany(u => u.Subscriptions);
     }
 }
