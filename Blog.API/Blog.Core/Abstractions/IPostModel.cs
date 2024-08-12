@@ -2,11 +2,11 @@
 {
     public interface IPostModel
     {
+        Guid Id { get; }
+        string Title { get; }
+        string TextData { get; }
         int AuthorId { get; }
         DateTime CreatedDate { get; }
-        Guid Id { get; }
-        string TextData { get; }
-        string Title { get; }
         int Views { get; }
     }
 }

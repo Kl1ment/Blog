@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blog.Infrastucture
-build_property.ProjectDir = D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\
+build_property.ProjectDir = C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

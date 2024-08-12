@@ -76,5 +76,25 @@ namespace Blog.Application.Services
 
             return Result.Success();
         }
+
+        public async Task<IResult> Subscribe(int userId, int authorId)
+        {
+            return await _userRepository.Subscribe(userId, authorId);
+        }
+        
+        public async Task<IResult> Unsubscribe(int userId, int authorId)
+        {
+            return await _userRepository.Unsubscribe(userId, authorId);
+        }
+
+        public async Task<List<UserModel>?> GetSubscriptions(int userId)
+        {
+            return await _userRepository.GetSubscriptions(userId);
+        }
+
+        public async Task<List<UserModel>?> GetFollowers(int userId)
+        {
+            return await _userRepository.GetFollowers(userId);
+        }
     }
 }

@@ -16,3 +16,21 @@ D:\Program Files\JetBrains\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\ref\Blog.Application.dll
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Application.runtimeconfig.json
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.genruntimeconfig.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Application.deps.json
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Application.runtimeconfig.json
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Application.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Application.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Core.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\bin\Debug\net8.0\Blog.Core.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.AssemblyInfo.cs
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.sourcelink.json
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.App.C7D7B2EA.Up2Date
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\refint\Blog.Application.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\Blog.Application.genruntimeconfig.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Application\obj\Debug\net8.0\ref\Blog.Application.dll

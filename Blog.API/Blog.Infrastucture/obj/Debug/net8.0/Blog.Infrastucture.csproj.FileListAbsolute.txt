@@ -14,3 +14,19 @@ D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blo
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\refint\Blog.Infrastucture.dll
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.pdb
 D:\Program Files\JetBrains\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\ref\Blog.Infrastucture.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.deps.json
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Infrastucture.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Core.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\bin\Debug\net8.0\Blog.Core.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.csproj.AssemblyReference.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.AssemblyInfo.cs
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.sourcelink.json
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Inf.36F2EF46.Up2Date
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\refint\Blog.Infrastucture.dll
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\Blog.Infrastucture.pdb
+C:\Users\jkaes\Documents\GitHub\Blog\Blog.API\Blog.Infrastucture\obj\Debug\net8.0\ref\Blog.Infrastucture.dll

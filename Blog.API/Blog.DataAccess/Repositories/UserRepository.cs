@@ -85,5 +85,73 @@ namespace Blog.DataAccess.Repositories
 
             return id;
         }
+
+        public async Task<IResult> Subscribe(int userId, int authorId)
+        {
+            var author = await _context.Users
+                .FirstOrDefaultAsync(a => a.Id == authorId);
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            if (user != null && author != null)
+            {
+                author.Folowers.Add(user);
+                user.Subscriptions.Add(author);
+
+                await _context.SaveChangesAsync();
+
+                return Result.Success();
+            }
+
+            return Result.Failure("Неизвестная ошибка");
+        }
+
+        public async Task<IResult> Unsubscribe(int userId, int authorId)
+        {
+            var author = await _context.Users
+                .FirstOrDefaultAsync(a => a.Id == authorId);
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            if (user != null && author != null)
+            {
+                author.Folowers.Remove(user);
+                user.Subscriptions.Remove(author);
+
+                await _context.SaveChangesAsync();
+
+                return Result.Success();
+            }
+
+            return Result.Failure("Неизвестная ошибка");
+        }
+
+        public async Task<List<UserModel>?> GetSubscriptions(int userId)
+        {
+            var user = await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            var subscriptions = user?.Subscriptions
+                .Select(s => UserModel.Create(s.Id, s.UserName))
+                .ToList();
+
+            return subscriptions;
+        }
+
+        public async Task<List<UserModel>?> GetFollowers(int userId)
+        {
+            var user = await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
+            var subscriptions = user?.Folowers
+                .Select(s => UserModel.Create(s.Id, s.UserName))
+                .ToList();
+
+            return subscriptions;
+        }
     }
 }
