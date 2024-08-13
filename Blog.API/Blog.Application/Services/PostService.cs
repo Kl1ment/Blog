@@ -1,5 +1,6 @@
 ﻿using Blog.Core.Abstractions;
 using Blog.DataAccess.Repositories;
+using CSharpFunctionalExtensions;
 
 namespace Blog.Application.Services
 {
@@ -28,14 +29,41 @@ namespace Blog.Application.Services
             return await _postRepository.Create(postModel);
         }
 
-        public async Task<Guid> Update(IPostModel postModel)
+        public async Task<IResult<string>> Update(int userId, IPostModel postModel)
         {
-            return await _postRepository.Update(postModel);
+            var postOfUser = await IsPostOfUser(userId, postModel.Id);
+
+            if (postOfUser.IsFailure)
+                return Result.Failure<string>(postOfUser.Error);
+
+            await _postRepository.Update(postModel);
+
+            return Result.Success<string>($"Пост '{postModel.Id}' изменен");
         }
 
-        public async Task<Guid> Delete(Guid id)
+        public async Task<IResult<string>> Delete(int userId, Guid id)
         {
-            return await _postRepository.Delete(id);
+            var postOfUser = await IsPostOfUser(userId, id);
+
+            if (postOfUser.IsFailure)
+                return Result.Failure<string>(postOfUser.Error);
+
+            await _postRepository.Delete(id);
+
+            return Result.Success<string>($"Пост '{id}' удален");
+        }
+
+        private async Task<Result> IsPostOfUser(int userId, Guid id)
+        {
+            var post = await _postRepository.GetPost(id);
+
+            if (post.IsFailure)
+                return Result.Failure(post.Error);
+
+            if (post.Value.AuthorId != userId)
+                return Result.Failure("Пост принадлежит другому автору");
+
+            return Result.Success();
         }
 
     }

@@ -15,6 +15,8 @@ namespace Blog.API.Controllers
     {
         private readonly IPostService _postService;
 
+        private int UserId => Convert.ToInt32(HttpContext.User.FindFirstValue("userId"));
+
         public PostsController(IPostService postService)
         {
             _postService = postService;
@@ -29,17 +31,13 @@ namespace Blog.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<IPostModel>>> GetNewsFeed([FromQuery] int page)
         {
-            int userId = Convert.ToInt32(HttpContext.User.FindFirstValue("userId"));
-
-            return await _postService.GetNewsFeed(userId, page);
+            return await _postService.GetNewsFeed(UserId, page);
         }
 
         [HttpPost]
         public async Task<ActionResult<Guid>> CreatePost(PostRequest postRequest)
         {
-            int id = Convert.ToInt32(HttpContext.User.FindFirstValue("userId"));
-
-            var newPost = PostModel.Create(Guid.NewGuid(), id, postRequest.Title, postRequest.TextData);
+            var newPost = PostModel.Create(Guid.NewGuid(), UserId, postRequest.Title, postRequest.TextData);
 
             if (newPost.IsFailure)
             {
@@ -51,10 +49,21 @@ namespace Blog.API.Controllers
             return Ok(newPost.Value.Id);
         }
 
-        [HttpDelete]
-        public async Task<ActionResult<Guid>> DeletePost([FromBody] Guid id)
+        [HttpPut]
+        public async Task<ActionResult> UpdatePost(PostRequest postRequest)
         {
-            return await _postService.Delete(id);
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> DeletePost([FromBody] Guid id)
+        {
+            var result = await _postService.Delete(UserId, id);
+
+            if (result.IsFailure)
+                return BadRequest(result.Error);
+
+            return Ok(result.Value);
         }
 
     }

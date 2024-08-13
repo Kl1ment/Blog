@@ -1,6 +1,7 @@
 ﻿using Blog.Core.Abstractions;
 using Blog.Core.Models;
 using Blog.DataAccess.Entities;
+using CSharpFunctionalExtensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blog.DataAccess.Repositories
@@ -17,11 +18,34 @@ namespace Blog.DataAccess.Repositories
             _context = context;
         }
 
+        public async Task<IResult<IPostModel, string>> GetPost(Guid id)
+        {
+            var postEntity = await _context.Post
+                .AsNoTracking()
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (postEntity == null)
+            {
+                return Result.Failure<IPostModel, string>("Пост не найден");
+            }
+
+            var post = new PostDto(
+                postEntity.Id,
+                postEntity.AuthorId,
+                postEntity.Title,
+                postEntity.TextData,
+                postEntity.CreatedDate,
+                postEntity.Views);
+
+            return Result.Success<IPostModel>(post);
+        }
+
         public async Task<List<IPostModel>> GetByAuthorId(int authorId, int page)
         {
             var postEntities = await _context.Post
-                .Skip((page - 1) * PageSize)
                 .Where(b => b.AuthorId == authorId)
+                .OrderByDescending(p => p.CreatedDate)
+                .Skip((page - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();
 
